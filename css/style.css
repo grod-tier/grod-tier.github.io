@@ -203,21 +203,21 @@ list-style-type:none;
 
 .vinyl-store {
   position:relative;
-  background-image:url("https://cdn.pixabay.com/photo/2015/09/18/11/35/vinyl-records-945396_1280.jpg");
+  background-image:url("../images/record-store-bg.jpg");
   height:600px;
   background-position:Center;
 }
 
 .vinyl-stack {
   position:relative;
-  background-image:url("https://cdn.pixabay.com/photo/2015/11/07/11/51/phonograph-albums-1031563_1280.jpg");
+  background-image:url("../images/record-stack.jpg");
   height:600px;
   background-position:Center;
 }
 
 .vinyl-table{
   position:relative;
-  background-image:url("https://cdn.pixabay.com/photo/2014/05/03/00/45/record-336626_1280.jpg");
+  background-image:url("../images/turntable-needle.jpg");
   height:600px;
   background-position:Center;
 }
@@ -264,7 +264,7 @@ list-style-type:none;
     margin-top:-16px;
     padding:0;
     height:800px;
-    background-image:url(https://cdn.pixabay.com/photo/2016/03/09/09/32/guitar-1245856_1280.jpg);
+    background-image:url("../images/bw-guitar-bg.jpg");
   }
   
   .sort-by {
@@ -325,7 +325,7 @@ list-style-type:none;
     margin-top:0px;
     padding:0;
     height:800px;
-    background-image:url("https://cdn.pixabay.com/photo/2015/10/09/06/57/records-978813_1280.jpg");
+    background-image:url("../images/record-store-bg.jpg");
   }
   
   #login {
@@ -396,7 +396,7 @@ background-color:#f4f1de;
   float:left;
   margin-right:4px;
   position:relative;
-   background-image:url("https://cdn.pixabay.com/photo/2017/11/06/15/52/blank-vinyl-record-jacket-2924018_1280.jpg");
+   background-image:url("../images/record-cover.jpg");
    background-position:50% 30%;
    background-size:970px 800px;
    background-repeat:no-repeat;
@@ -689,7 +689,7 @@ input[type=checkbox]:checked ~ #main-nav-rom, label.toggle {display: block; curs
   float:left;
   margin-right:4px;
   position:relative;
-   background-image:url("https://cdn.pixabay.com/photo/2017/11/06/15/52/blank-vinyl-record-jacket-2924018_1280.jpg");
+   background-image:url("../images/record-cover.jpg");
    background-position:50% 30%;
    background-size:970px 800px;
    background-repeat:no-repeat;
