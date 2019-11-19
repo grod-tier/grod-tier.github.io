@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About</title>
+  <title>Records Of The Month w toggle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
@@ -16,11 +16,15 @@
 <body>
 
    <div id="wrapper"> 
-<header>
-<ul id="main-nav">
-  <li id="logo"><a href="index.html">VinylPass</a></li>
-          <li><a href="index.html" id="selected">About</a></li>
-          <li><a href="rom-toggle.html">Records</a></li>
+<header id="header-rom">
+  
+  <label class="toggle" for="toggle"> &#9776; <span>Menu</span></label>
+  <input class="toggle" id="toggle" type="checkbox">
+  <div id="mob-logo">VinylPass</div>
+<ul id="main-nav-rom">
+  <li id="logo-rom"><a href="index.html">VinylPass</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="rom-toggle.html" id="selected">Records</a></li>
           <li><a href="collection.html">Collection</a></li>
           <li><a href="login.html">Log In</a></li>
         </ul>
@@ -32,21 +36,36 @@
    
    
    
-   <div id="content">
-     <div class="vinyl-store">
-       <div class= "slogan">Your Music, Your Records</div>
-       
-     </div>
+   <div id="content-rom">
+     <div id="title">Records Of The Month</div>
      
-     <div class="vinyl-stack">
-       <div class= "slogan">Unlimited Collection</div>
-       
-     </div>
      
-     <div class="vinyl-table">
-       <div class= "slogan">Curated For You</div>
-       
-     </div>
+     <section class="record-group-rom">
+	<a href="details.html">
+    <div class="record-rom rec1">
+      <div class="album-name-rom">Nothing</div>
+      <div class="band-name-rom">The Blanks</div>
+    
+    </div>
+	</a>
+
+
+	<a href="details.html">
+    <div class="record-rom rec2"> 
+    
+    <div class="album-name-rom">Greatest Hits</div>
+      <div class="band-name-rom">The Beegees</div></div>
+	</a>
+
+	<a href="details.html">
+    <div class="record-rom rec3">
+    
+    <div class="album-name-rom">The Now Now</div>
+      <div class="band-name-rom">Gorillaz</div></div>
+    	</a>
+    
+    
+  </section>
      
    </div>
    

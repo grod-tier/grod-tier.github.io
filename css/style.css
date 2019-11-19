@@ -1,0 +1,886 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+* {
+/*   outline: 1px dashed gray; */
+   font-family: 'Staatliches', cursive;
+}
+
+
+#wrapper {
+  width: 970px;
+  margin: 0 auto;
+}
+
+body {
+  padding:0px;
+  margin:0px;
+}
+
+/*begin header styles */
+
+#main-nav {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color:#333;
+  overflow:hidden;
+}
+
+
+
+li {
+
+  float:left;
+  width:16.444%;
+  border-right:1px solid black;
+}
+
+li:last-child {
+  border-right:1px solid #f4f1de;
+  
+}
+
+li a {
+  color:white;
+  display:block;
+  background-color:#dddddd;
+  text-align: Center;
+  padding:30px 0;
+  text-decoration:none;
+  line-height:20px;
+  font-size:30px;
+}
+
+li a:link {
+  text-decoration:none;
+  color:black;
+  background-color:#f4f1de;
+  color:#e07a5f;
+  
+  
+}
+
+li a:visited {
+  text-decoration:none;
+  color:black;
+  background-color:#f4f1de;
+  color:#e07a5f;
+  
+}
+
+li a:hover {
+  text-decoration:none;
+  background-color:#81b29a;
+  color:#f4f1de;
+}
+
+li a:active {
+  background-color:#3d405b;
+}
+
+#selected {
+	background-color:#81b29a;
+}
+
+
+#logo {
+  width:33.7%;
+}
+
+#logo a {
+  font-size:60px;
+  line-height:20px;
+  padding:30px;
+  color:#3d405b;
+}
+
+#logo a:hover {
+  background-color:#f4f1de;
+    color:#81b29a;
+}
+
+#logo a:active {
+  color:#f4f1de;
+  background-color:#81b29a;
+}
+
+
+/*Begin Footer Styles */
+
+footer {
+  width: 100%;
+  height:163px;
+  position:relative;
+  background-color:#81b29a;
+}
+
+.fa {
+  position:absolute;
+  
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:#f4f1de;
+  background: #3d405b;
+  top:25%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  left:10%;
+  color: white;
+}
+
+.fa-twitter {
+ 
+  left:15%;
+  background:
+}
+
+.fa-instagram {
+ 
+  left:20%;
+}
+
+
+
+
+#company {
+  position:absolute;
+  top:12%;
+  left:40.9%;
+}
+
+#copyright {
+  position:absolute;
+  left:40.9%;
+  top:60%;
+  color:#3d405b;
+}
+
+#contact {
+ color:#f4f1de;
+  position:absolute;
+  width:24.2%;
+   top:24%;
+  left:70%;
+}
+#company h3{
+  color:#f2cc8f;
+}
+
+#company ul {
+list-style-type:none;
+  margin-top:-10px;
+  padding:0;
+}
+
+#company li {
+  float:left;
+  border-right:none;
+  color:#f4f1de;
+  margin-right:1em;
+}
+
+#company li:hover {
+  color:#e07a5f;
+}
+
+
+  
+  /*begin content style */
+#content {
+  width:100%;
+  background-color:antiquewhite;
+}
+
+.vinyl-store {
+  position:relative;
+  background-image:url("https://cdn.pixabay.com/photo/2015/09/18/11/35/vinyl-records-945396_1280.jpg");
+  height:600px;
+  background-position:Center;
+}
+
+.vinyl-stack {
+  position:relative;
+  background-image:url("https://cdn.pixabay.com/photo/2015/11/07/11/51/phonograph-albums-1031563_1280.jpg");
+  height:600px;
+  background-position:Center;
+}
+
+.vinyl-table{
+  position:relative;
+  background-image:url("https://cdn.pixabay.com/photo/2014/05/03/00/45/record-336626_1280.jpg");
+  height:600px;
+  background-position:Center;
+}
+
+
+.slogan {
+  border:1px solid black;
+  position: absolute;
+  width:40.8%;
+  height:138.5px;
+  top:36%;
+  right:10%;
+  background-color:rgba(61,64,91,.5);
+  font-size:40px;
+  color:#f4f1de;
+  text-align:center;
+  line-height:138.5px;
+  
+}
+
+.vinyl-stack .slogan {
+  left:10%;
+}
+
+/*INSERT FROM DETAILS CSS*/
+
+#title {
+  width:100%;
+ 
+  text-align:left;
+  font-size:30px;
+  height:50px;
+  background-color:#3d405b;
+  color:#f4f1de;
+  line-height:50px;
+}
+
+#content-det {
+    height: 1000px;
+    position:relative;
+  }
+  
+  #back-image-det {
+    margin-top:-16px;
+    padding:0;
+    height:800px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/03/09/09/32/guitar-1245856_1280.jpg);
+  }
+  
+  .sort-by {
+    padding-top:6px;
+    list-style-type:none;
+    margin-left:300px;
+    width:100%;
+  }
+  
+  .sort-by li {
+    color: #f4f1de;
+    display:inline;
+    text-align:center;
+    border:none;
+    font-size:20px
+  }
+  
+  .sort-by li:hover {
+    color:#81b29a
+  }
+  
+  #info {
+    
+    padding-left:20px;
+    padding-right:20px;
+    position:absolute;
+    right:0%;
+    top:20%;
+    color:#f4f1de;
+    background-color:#3d405b;
+    width:56%;
+    height:400px;
+    opacity:.8;
+    
+   
+  }
+
+/*INSERT LOGIN STYLE */
+
+#title-login {
+  width:100%;
+ 
+  text-align:center;
+  font-size:30px;
+  height:50px;
+  background-color:#3d405b;
+  color:#f4f1de;
+  line-height:50px;
+}
+
+ #content-login {
+    height: 800px;
+    position:relative;
+  }
+
+
+#back-image {
+    margin-top:0px;
+    padding:0;
+    height:800px;
+    background-image:url("https://cdn.pixabay.com/photo/2015/10/09/06/57/records-978813_1280.jpg");
+  }
+  
+  #login {
+    background-color:#f4f1de;
+    position:absolute;
+    left:25%;
+    top:15%;
+    height:600px;
+    width:49.6%;
+    border: 4px solid #3d405b;
+    border-radius:20px;
+  }
+  
+  #login h1 {
+    text-align:center;
+    border:4px solid #e07a5f;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:#3d405b;
+  }
+  
+  
+ 
+  
+  form {
+    text-align:center;
+    margin-top:15%;
+    color:#3d405b
+  }
+  
+  input {
+    margin-bottom:30px;
+    width:50%;
+    background-color:#f4f1de;
+    border:2px solid #3d405b;
+  }
+  
+  input:last-child {
+    margin-top:30px;
+    background-color:#e07a5f;
+    width:25%;
+    height:40px;
+  }
+  
+  input:last-child:hover {
+    background-color:#81b29a;
+  }
+  
+  input:last-child:active {
+    color:#f4f1de;
+  }
+  
+/*INSERT COLLECTION STYLE*/
+
+#content-collection {
+    height: 1000px;
+    position:relative;
+background-color:#f4f1de;
+  }
+
+
+
+.record{
+   outline:2px solid black;
+  background-color:aquamarine;
+  width:100%;
+  height:357px;
+  float:left;
+  margin-right:4px;
+  position:relative;
+   background-image:url("https://cdn.pixabay.com/photo/2017/11/06/15/52/blank-vinyl-record-jacket-2924018_1280.jpg");
+   background-position:50% 30%;
+   background-size:970px 800px;
+   background-repeat:no-repeat;
+}
+
+
+.rec2 {
+  background-image:url("https://cdn.pixabay.com/photo/2016/08/15/16/48/bakelite-1595847_1280.jpg")
+}
+
+.rec3 {
+  background-image:url("https://images-na.ssl-images-amazon.com/images/I/81e0-aYy0CL._SL1500_.jpg");
+}
+
+.album-name {
+  outline:2px solid black;
+  width:100%;
+  background-color:#81b29a;
+  text-align:center;
+  position:absolute;
+  top:20%;
+  height:38px;
+  line-height:38px;
+  color:#f4f1de;
+  opacity:.8
+}
+
+.band-name {
+  outline: 2px solid black;
+  width:100%;
+  background-color:#f2cc8f;
+  color:#3d405b;
+  text-align:center;
+  position:absolute;
+  bottom:20%;
+  height:38px;
+  line-height:38px;
+  opacity.8;
+}
+
+.sort-by {
+    list-style-type:none;
+    margin-left:300px;
+    
+  }
+  
+  #content-collection .sort-by li {
+    display:inline;
+    text-align:center;
+    border:none;
+    font-size:20px;
+	color:black;
+  }
+  
+  #content-collection .sort-by li:hover {
+    color:#81b29a
+  }
+  
+  #content-collection .sort-by li:first-child {
+    border-right:1px solid black;
+    color:#f2cc8f;
+  }
+  
+  #genre {
+    clear:both;
+    margin:0;
+    padding:0;
+    width:60px;
+    margin-top:90px;
+    margin-left:70px;
+    
+  }
+  
+  #genre li {
+	
+    display:block;
+    width:60px;
+    text-align:center;
+  }
+  
+  #genre li:first-child {
+    margin-bottom:40px;
+    border-bottom:1px solid black;
+  }
+  
+  #decade {
+     clear:both;
+    margin:0;
+    padding:0;
+    width:60px;
+    padding-top:100px;
+    margin-left:70px;
+    
+  }
+  
+  #decade li {
+    display:block;
+    width:60px;
+    text-align:center;
+  }
+  
+  #decade li:first-child {
+    margin-bottom:40px;
+    border-bottom:1px solid black;
+  }
+  
+  
+  
+  .record-group{
+    
+    width: 768px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position: absolute;
+    top:14%;
+    right:0%;
+  }
+  
+  .group2 {
+    top:50%;
+  }
+  
+  .record{
+  
+    background-position:center;
+    background-size:360px 320px;
+  background-color:aquamarine;
+  width:236px;
+  height:236px;
+  flex:0 0 236px;
+}
+  
+  .album-name{
+    top:100%;
+  }
+  
+  .band-name {
+    bottom:-32%;
+  }
+
+
+/* INSERT ROM STYLE */
+
+#header-rom {
+position:relative;
+}
+
+#main-nav-rom {
+display:none;
+}
+
+#main-nav-rom {
+  /*mobile attempt*/
+  position:absolute;
+  z-index:150;
+  left:0%;
+  top:100%;
+  
+  /*mobile attempt*/
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color:#333;
+  overflow:hidden;
+  
+}
+
+#mob-logo {
+  text-align:center;
+  line-height:90px;
+  font-size:40px;
+  color:#3d405b;
+  background-color:#f4f1de;
+  height:90px;
+  width:100%;
+}
+
+#logo-rom {
+  display:none;
+}
+
+input.toggle, .toggle span {
+  display:none;
+}
+
+.toggle {
+  position:absolute;
+  left:0%;
+  background-color:#3d405b;
+  color:white;
+  text-align:center;
+  line-height:90px;
+  font-size:40px;
+  width:100px;
+  height:90px;
+}
+
+
+input[type=checkbox]:checked ~ #main-nav-rom, label.toggle {display: block; cursor: pointer;}
+
+#main-nav-rom li {
+
+  z-index:100;
+
+  
+  width:970px;
+}
+
+#main-nav-rom li:last-child {
+  
+   
+}
+
+
+
+#main-nav-rom li a {
+  border-top:1px solid white;
+  color:white;
+  display:block;
+  background-color:#dddddd;
+  text-align: Center;
+  padding:30px 0;
+  text-decoration:none;
+  line-height:220px;
+  font-size:30px;
+}
+
+#main-nav-rom li a:link {
+  text-decoration:none;
+  color:black;
+  background-color:#3d405b;
+  color:#f4f1de;
+  
+  
+}
+
+#main-nav-rom li a:visited {
+   text-decoration:none;
+  color:black;
+  background-color:#3d405b;
+  color:#f4f1de;
+  
+}
+
+#main-nav-rom li a:hover {
+  text-decoration:none;
+  background-color:#81b29a;
+  color:#f4f1de;
+}
+
+#main-nav-rom li a:active {
+  background-color:#3d405b;
+}
+
+
+
+#logo-rom {
+  width:100%;
+}
+
+#logo-rom a {
+  font-size:60px;
+  line-height:20px;
+  padding:30px;
+  color:#f4f1de;
+}
+
+#logo-rom a:hover {
+  background-color:#f4f1de;
+    color:#81b29a;
+}
+
+#logo-rom a:active {
+  color:#f4f1de;
+  background-color:#81b29a;
+}
+
+#content-rom {
+  width:100%;
+  background-color:#f4f1de;
+  height:1120px;
+}
+
+.record-rom{
+   outline:2px solid black;
+  background-color:aquamarine;
+  width:100%;
+  height:357px;
+  float:left;
+  margin-right:4px;
+  position:relative;
+   background-image:url("https://cdn.pixabay.com/photo/2017/11/06/15/52/blank-vinyl-record-jacket-2924018_1280.jpg");
+   background-position:50% 30%;
+   background-size:970px 800px;
+   background-repeat:no-repeat;
+}
+
+
+.rec2 {
+  background-image:url("https://cdn.pixabay.com/photo/2016/08/15/16/48/bakelite-1595847_1280.jpg")
+}
+
+.rec3 {
+  background-image:url("https://images-na.ssl-images-amazon.com/images/I/81e0-aYy0CL._SL1500_.jpg");
+}
+
+.album-name-rom {
+  outline:2px solid black;
+  width:100%;
+  background-color:#81b29a;
+  text-align:center;
+  position:absolute;
+  top:20%;
+  height:38px;
+  line-height:38px;
+  color:#f4f1de;
+  opacity:.8
+}
+
+.band-name-rom {
+  outline: 2px solid black;
+  width:100%;
+  background-color:#f2cc8f;
+  color:#3d405b;
+  text-align:center;
+  position:absolute;
+  bottom:20%;
+  height:38px;
+  line-height:38px;
+  opacity.8;
+}
+
+
+
+@media(min-width: 768px) {
+  /*.record-group {
+    display:grid;
+    grid-template-columns:repeat(3, 315px 12px);
+  }
+  
+  .record:fir*/
+  #mob-logo {
+    display:none;
+  }
+  
+  #logo-rom {
+    display:block;
+  }
+
+    input.toggle, label.toggle {
+      display:none;
+    }
+
+  .title-rom {
+	text-align:center;
+}
+
+  #main-nav-rom {
+    position:relative;
+   display:block;
+list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color:#333;
+  overflow:hidden;
+  }
+  
+  #main-nav-rom li {
+    float:left;
+  width:16.444%;
+  border-right:1px solid black;
+  }
+  
+  #main-nav-rom li a {
+    border-top:none;
+  color:white;
+  display:block;
+  background-color:#dddddd;
+  text-align: Center;
+  padding:30px 0;
+  text-decoration:none;
+  line-height:20px;
+  font-size:30px;
+}
+
+#main-nav-rom li a:link {
+  text-decoration:none;
+  color:black;
+  background-color:#f4f1de;
+  color:#e07a5f;
+  
+  
+}
+  
+ #main-nav-rom li a:visited {
+ text-decoration:none;
+  color:black;
+  background-color:#f4f1de;
+  color:#e07a5f;
+}
+
+#main-nav-rom li a:hover {
+  text-decoration:none;
+  background-color:#81b29a;
+  color:#f4f1de;
+}
+
+#main-nav-rom li a:active {
+  background-color:#3d405b;
+}
+
+#main-nav-rom #logo-rom {
+  width:33.7%;
+}
+
+#main-nav-rom #logo-rom a {
+  font-size:60px;
+  line-height:20px;
+  padding:30px;
+  color:#3d405b;
+}
+
+#main-nav-rom #selected {
+	background-color:#81b29a;
+}
+
+#main-nav-rom #logo-rom a:visited {
+  font-size:60px;
+  line-height:20px;
+  padding:30px;
+  color:#3d405b;
+}
+
+#main-nav-rom #logo-rom a:hover {
+  background-color:#f4f1de;
+    color:#81b29a;
+}
+
+#main-nav-rom #logo-rom a:active {
+  color:#f4f1de;
+  background-color:#81b29a;
+}
+  
+  #content-rom {
+    height: 600px;
+  }
+  
+  .dropdown-content {display:none; position:absolute; top:35px; left:0px; min-width:160px;}
+  
+  .record-group-rom{
+    width: 974px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position: absolute;
+    top:25%;
+  }
+  
+  .record-rom{
+  
+    background-position:center;
+    background-size:360px 320px;
+  background-color:aquamarine;
+  width:315px;
+  height:315px;
+  flex:0 0 315px;
+}
+  
+  .album-name-rom{
+    top:100%;
+  }
+  
+  .band-name-rom {
+    bottom:-24%;
+  }
+  
+  #copyright{
+    top:70%;
+  }
+
+
+}
+
+
+
+  
