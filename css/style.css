@@ -404,7 +404,7 @@ background-color:#f4f1de;
 
 
 .rec2 {
-  background-image:url("https://cdn.pixabay.com/photo/2016/08/15/16/48/bakelite-1595847_1280.jpg")
+  background-image:url("../images/record-pile.jpg")
 }
 
 .rec3 {
@@ -697,7 +697,7 @@ input[type=checkbox]:checked ~ #main-nav-rom, label.toggle {display: block; curs
 
 
 .rec2 {
-  background-image:url("https://cdn.pixabay.com/photo/2016/08/15/16/48/bakelite-1595847_1280.jpg")
+  background-image:url("../images/record-pile.jpg")
 }
 
 .rec3 {
